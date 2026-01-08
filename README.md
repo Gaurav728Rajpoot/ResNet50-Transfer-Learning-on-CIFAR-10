@@ -32,7 +32,7 @@ The initial model performance was analyzed to identify bottlenecks.
 - **Insight:** The model was significantly underfitting, likely due to the domain gap between ImageNet and CIFAR-10 (different image resolutions).
 
 ### 5. 🔄 Data Augmentation
-To prevent overfitting and improve the model's ability to generalize, we introduced data augmentation techniques.
+To prevent overfitting and improve the model's ability to generalize, I used data generated data augmentation techniques on the fly.
 - **Techniques Used:** Rotation, Zooming, Horizontal Flips, and Shifts.
 
 ### 6. 🚀 Building the Final Model (Fine-Tuning)
